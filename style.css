@@ -38,7 +38,7 @@ body {
     cursor: pointer;
 }
 
-#start :hover {
+#start span :hover {
     box-shadow: inset 3px 3px 5px rgba(87, 85, 85, 0.5), inset -2px -2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -47,7 +47,6 @@ body {
 
 #guide,
 #quiz {
-    display: none;
     height: auto;
     width: 700px;
     padding: 40px;
@@ -55,6 +54,7 @@ body {
     border: 1px solid gold;
     border-radius: inherit;
     box-shadow: inset 2px 2px 3px rgb(255 255 255 / 15%), inset -2px -2px 3px rgb(0 0 0);
+    display: none;
 }
 
 #guide h2 {
@@ -171,12 +171,12 @@ body {
 }
 
 #quiz #question h2 {
-    font-size: 35px;
+    font-size: 30px;
     color: #f7f7fa
 }
 
 #quiz #question h2:first-child {
-    margin: 0 10px 0 5px;
+    margin: 0 5px 0 5px;
 }
 
 
@@ -192,6 +192,7 @@ body {
 #quiz #optionList h4 {
     height: 50px;
     width: 560px;
+    font-size: 30px;
     background: darkgray;
     line-height: 50px;
     margin: 5px 0;
